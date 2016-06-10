@@ -1,0 +1,77 @@
+﻿body 
+{
+    background-color:#ccc;
+    font-family: Arial;
+    font-size:11pt;
+}
+#content-wide {padding:20px; width:910px !important;}
+
+.forum-list {width:100%;}
+.forum-item
+{
+
+    width: 90%;
+    float: left;
+    clear: left;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom: dotted 1px #ccc;
+    padding-left:10%;
+    background-position: left center;
+    background-image: url('images/forum.gif');
+    background-repeat: no-repeat;
+}
+.forum-item > div {min-height:50px;}
+.forum-item .description {width:50%; float:left;  }
+.forum-item .post-count {width:10%; float:left;text-align:center; font-weight:bold;}
+.forum-item .post-last { width:30%; float:left; text-align:right; font-size:.8em; }
+
+
+.topic-list {width:100%;margin-top:20px;clear:left;}
+.topic-item{padding-left:10%;
+    background-position: left center;
+    background-image: url('images/topic.gif');
+    background-repeat: no-repeat; width:90%;float:left;clear:left;  margin-bottom:5px; padding-bottom:5px; padding-top:5px;}
+.topic-item > div {min-height:50px;}
+.topic-item .description {width:50%; float:left;  }
+.topic-item .post-count {width:10%; float:left;text-align:center; font-weight:bold;}
+.topic-item .post-last { width:30%; float:left; text-align:right; font-size:.8em; }
+.topic-item.alt {background-color:#DBE8F9;}
+
+
+.add-topic { padding-top:20px;}
+.add-topic input[type=text] {width:100%;}
+.add-topic textarea {width:100%;}
+.add-topic input[type=submit] {border:solid 1px #363636;}
+
+.post-list{margin-top:20px; clear:left;}
+.post-item {float:left; width:100%;margin:10px 0; padding-bottom:5px; border-bottom:dotted 1px #ccc;}
+.post-item h1 {font-size:1.2em; margin:0 0 5px 0;}
+.post-item .user
+{
+    border: 1px solid #C1E0FF;
+    background-position: center top;
+    background-image: url('images/user.gif');
+    background-repeat: no-repeat;
+    float: left;
+    width: 180px;
+    background-color: #DBE8F9;
+    padding:55px 10px 10px 10px;
+    text-align:center;
+}
+.post-item a.button {float:none;}
+.post-item .description {float:left; width:680px; margin-left:20px;}
+.post-item .date {padding:5px 0px;font-size:.8em;}
+.post-reply { padding-top:20px; clear:left;}
+.post-reply textarea {width:100%;}
+.post-reply input[type=submit] {border:solid 1px #363636;}
+
+#paging {margin:20px 0px;}
+#paging a {border:solid 1px #363636; background-color:#DBE8F9;display:block;float:left; text-align:center; line-height:30px; width:30px; height:30px;margin-right:3px; text-decoration:none; color:#363636;}
+#paging a.current{font-weight:bold;}
+
+.errorMessage{font-weight:bold; color:Red; padding:2px;}
+
+.jHtmlArea {margin-bottom:10px;}
+.jHtmlArea .ToolBar {border:solid 1px #ccc; background-color:#ccc;float:left; width:936px !important;}
+.jHtmlArea iframe {border:solid 1px #ccc;}
